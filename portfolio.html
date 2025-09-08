@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Your Name – Portfolio</title>
+  <style>
+    :root { font-family: system-ui, Arial, sans-serif; line-height: 1.6; }
+    body { margin: 0; }
+    header { padding: 3rem 1rem; text-align: center; background: #f5f5f5; }
+    nav a { margin: 0 .75rem; text-decoration: none; color: #333; }
+    .container { max-width: 900px; margin: 0 auto; padding: 2rem 1rem; }
+    .grid { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
+    .card { border: 1px solid #e5e5e5; border-radius: 12px; padding: 1rem; }
+    footer { text-align: center; padding: 2rem 1rem; color: #666; }
+    img { max-width: 100%; border-radius: 8px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Your Name</h1>
+    <p>Front-End Developer • UI Enthusiast • Problem Solver</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section id="about">
+      <h2>About</h2>
+      <p>I build accessible, responsive web apps. Currently exploring React and performance optimization.</p>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="grid">
+        <article class="card">
+          <img src="screenshot1.png" alt="Project 1 screenshot">
+          <h3>Project One</h3>
+          <p>Short description of what it does and the tech used (HTML, CSS, JS).</p>
+          <a href="https://example.com" target="_blank">Live</a> ·
+          <a href="https://github.com/you/project-one" target="_blank">Code</a>
+        </article>
+        <article class="card">
+          <img src="screenshot2.png" alt="Project 2 screenshot">
+          <h3>Project Two</h3>
+          <p>Brief problem solved and your role.</p>
+          <a href="#" target="_blank">Live</a> ·
+          <a href="#" target="_blank">Code</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML5, CSS3 (Flexbox, Grid), JavaScript (ES6+)</li>
+        <li>React, Tailwind, Accessibility (WCAG)</li>
+        <li>Git/GitHub, REST APIs</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:you@example.com">you@example.com</a> · LinkedIn: <a href="#">/in/yourname</a></p>
+    </section>
+  </main>
+
+  <footer>© Your Name</footer>
+</body>
+</html>
