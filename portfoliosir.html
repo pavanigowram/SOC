@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width,initial-scale=1.0">
+        <title> Portofolio </title>
+        <style>
+            body{ font-family: Arial ; margin: 0}
+            header{background: black; color: rgb(162, 14, 38) ; padding:110px; text-align:center}
+            nav ul{display:flex; list-style: none ; justify-content: center;}
+            nav li{margin:0 100px}
+            nav a{color:white; text-decoration:none;}
+            .container{display:flex; flex-wrap: wrap;padding: 20px;} 
+            .card{flex:1 1 300px;margin:10px;padding:20px;border:1px solid black;border-radius:10px}
+            .footer{background-color: blanchedalmond; color:blueviolet; text-align: center;}
+        @media(max-width:600px){
+            nav ul {
+                display: column;
+                align-items:center;
+
+            }
+            nav li{
+                margin:10px 0;
+            }
+            .card{
+                flex:1 1 100%;
+                max-width:100%;
+            }
+            @media (min-width:601px) and (max-width:1024px){
+                .card{
+                    flex:1 1 45%;
+                    max-width:45;
+                }
+            }
+        }
+        @media( min-width:1025px){
+            .card{
+                flex:1 1 30%;
+                max-width:30%;
+            }
+        }
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="head">
+                <div> <h1> Pavani </h1></div>
+                <div>
+                    <nav>
+                    <ul>
+                        <li><a href="#">Joshna</a>                          
+                        </li>
+                        <li> <a href="#">Pavani</a></li>
+                    </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="container">
+                   <div class ="card"><h2>project 1</h2><p>Disc</p></div>
+                    <div class ="card"><h2>project 2</h2><p>Disc</p></div>
+                    <div class ="card"><h2>project 3</h2><p>Disc</p></div>
+        </main>
+        <footer>
+            <div><span>&copy; SRIT institute private Limited </span>
+            </div>
+        </footer>
+    </body>
+</html>
